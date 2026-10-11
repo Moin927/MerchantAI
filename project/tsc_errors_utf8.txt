@@ -1,0 +1,239 @@
+﻿src/pages/assistant.tsx(230,340): error TS18048: 'd.sales_change_pct' is possibly 'undefined'.
+src/pages/assistant.tsx(285,13): error TS18048: 'proposal' is possibly 'undefined'.
+src/pages/assistant.tsx(285,42): error TS18048: 'proposal' is possibly 'undefined'.
+src/pages/contacts.tsx(82,26): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>'.
+      Property 'initialData' is missing in type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, (string | undefined)[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<any[] | null, Error>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+src/pages/contacts.tsx(127,27): error TS2339: Property 'length' does not exist on type '{}'.
+src/pages/contacts.tsx(127,73): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/contacts.tsx(127,78): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/pages/contacts.tsx(210,26): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>'.
+      Property 'initialData' is missing in type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, (string | undefined)[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<any[] | null, Error>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+src/pages/contacts.tsx(254,27): error TS2339: Property 'length' does not exist on type '{}'.
+src/pages/contacts.tsx(254,73): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/contacts.tsx(254,78): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/pages/dashboard.tsx(49,32): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<any[] | null>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<any[] | null>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<any[] | null, Error, any[] | null, string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, string[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, string[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<any[] | null, Error, any[] | null, string[]>, queryClient?: QueryClient | undefined): UseQueryResult<any[] | null, Error>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, string[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, string[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+src/pages/dashboard.tsx(183,17): error TS2322: Type '(value: number) => string' is not assignable to type 'Formatter<ValueType, NameType> & ((value: ValueType, name: NameType, item: TooltipPayloadEntry, index: number, payload: TooltipPayload) => ReactNode | [...])'.
+  Type '(value: number) => string' is not assignable to type 'Formatter<ValueType, NameType>'.
+    Types of parameters 'value' and 'value' are incompatible.
+      Type 'ValueType | undefined' is not assignable to type 'number'.
+        Type 'undefined' is not assignable to type 'number'.
+src/pages/dashboard.tsx(212,17): error TS2322: Type '(value: number) => string' is not assignable to type 'Formatter<ValueType, NameType> & ((value: ValueType, name: NameType, item: TooltipPayloadEntry, index: number, payload: TooltipPayload) => ReactNode | [...])'.
+  Type '(value: number) => string' is not assignable to type 'Formatter<ValueType, NameType>'.
+    Types of parameters 'value' and 'value' are incompatible.
+      Type 'ValueType | undefined' is not assignable to type 'number'.
+        Type 'undefined' is not assignable to type 'number'.
+src/pages/dashboard.tsx(255,37): error TS2339: Property 'length' does not exist on type '{}'.
+src/pages/dashboard.tsx(257,27): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/dashboard.tsx(257,32): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/pages/invoices.tsx(67,31): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<Customer[]>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<Customer[]>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<Customer[], Error, Customer[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<Customer[]>' is not assignable to type 'unique symbol | QueryFunction<Customer[], string[], never> | undefined'.
+      Type '() => PromiseLike<Customer[]>' is not assignable to type 'QueryFunction<Customer[], string[], never>'.
+        Type 'PromiseLike<Customer[]>' is not assignable to type 'Customer[] | Promise<Customer[]>'.
+          Type 'PromiseLike<Customer[]>' is missing the following properties from type 'Promise<Customer[]>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<Customer[], Error, Customer[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<Customer[], Error>', gave the following error.
+    Type '() => PromiseLike<Customer[]>' is not assignable to type 'unique symbol | QueryFunction<Customer[], string[], never> | undefined'.
+      Type '() => PromiseLike<Customer[]>' is not assignable to type 'QueryFunction<Customer[], string[], never>'.
+        Type 'PromiseLike<Customer[]>' is not assignable to type 'Customer[] | Promise<Customer[]>'.
+          Type 'PromiseLike<Customer[]>' is missing the following properties from type 'Promise<Customer[]>': catch, finally, [Symbol.toStringTag]
+src/pages/invoices.tsx(68,30): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<Product[]>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<Product[]>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<Product[], Error, Product[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<Product[]>' is not assignable to type 'unique symbol | QueryFunction<Product[], string[], never> | undefined'.
+      Type '() => PromiseLike<Product[]>' is not assignable to type 'QueryFunction<Product[], string[], never>'.
+        Type 'PromiseLike<Product[]>' is not assignable to type 'Product[] | Promise<Product[]>'.
+          Type 'PromiseLike<Product[]>' is missing the following properties from type 'Promise<Product[]>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<Product[], Error, Product[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<Product[], Error>', gave the following error.
+    Type '() => PromiseLike<Product[]>' is not assignable to type 'unique symbol | QueryFunction<Product[], string[], never> | undefined'.
+      Type '() => PromiseLike<Product[]>' is not assignable to type 'QueryFunction<Product[], string[], never>'.
+        Type 'PromiseLike<Product[]>' is not assignable to type 'Product[] | Promise<Product[]>'.
+          Type 'PromiseLike<Product[]>' is missing the following properties from type 'Promise<Product[]>': catch, finally, [Symbol.toStringTag]
+src/pages/invoices.tsx(74,25): error TS2339: Property 'find' does not exist on type '{}'.
+src/pages/invoices.tsx(74,31): error TS7006: Parameter 'x' implicitly has an 'any' type.
+src/pages/invoices.tsx(113,150): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/invoices.tsx(113,155): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/pages/invoices.tsx(120,179): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/invoices.tsx(120,184): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/invoices.tsx(147,30): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>'.
+      Property 'initialData' is missing in type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, (string | undefined)[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<any[] | null, Error>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+src/pages/invoices.tsx(148,35): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>'.
+      Property 'initialData' is missing in type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, (string | undefined)[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<any[] | null, Error>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+src/pages/invoices.tsx(217,11): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+src/pages/invoices.tsx(217,33): error TS2339: Property 'length' does not exist on type '{}'.
+src/pages/invoices.tsx(220,52): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/invoices.tsx(220,57): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/invoices.tsx(226,11): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+src/pages/invoices.tsx(226,43): error TS2339: Property 'length' does not exist on type '{}'.
+src/pages/invoices.tsx(229,57): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/invoices.tsx(229,62): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/pages/new-transactions.tsx(30,30): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<Product[]>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<Product[]>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<Product[], Error, Product[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<Product[]>' is not assignable to type 'unique symbol | QueryFunction<Product[], string[], never> | undefined'.
+      Type '() => PromiseLike<Product[]>' is not assignable to type 'QueryFunction<Product[], string[], never>'.
+        Type 'PromiseLike<Product[]>' is not assignable to type 'Product[] | Promise<Product[]>'.
+          Type 'PromiseLike<Product[]>' is missing the following properties from type 'Promise<Product[]>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<Product[], Error, Product[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<Product[], Error>', gave the following error.
+    Type '() => PromiseLike<Product[]>' is not assignable to type 'unique symbol | QueryFunction<Product[], string[], never> | undefined'.
+      Type '() => PromiseLike<Product[]>' is not assignable to type 'QueryFunction<Product[], string[], never>'.
+        Type 'PromiseLike<Product[]>' is not assignable to type 'Product[] | Promise<Product[]>'.
+          Type 'PromiseLike<Product[]>' is missing the following properties from type 'Promise<Product[]>': catch, finally, [Symbol.toStringTag]
+src/pages/new-transactions.tsx(34,31): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<Customer[]>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<Customer[]>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<Customer[], Error, Customer[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<Customer[]>' is not assignable to type 'unique symbol | QueryFunction<Customer[], string[], never> | undefined'.
+      Type '() => PromiseLike<Customer[]>' is not assignable to type 'QueryFunction<Customer[], string[], never>'.
+        Type 'PromiseLike<Customer[]>' is not assignable to type 'Customer[] | Promise<Customer[]>'.
+          Type 'PromiseLike<Customer[]>' is missing the following properties from type 'Promise<Customer[]>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<Customer[], Error, Customer[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<Customer[], Error>', gave the following error.
+    Type '() => PromiseLike<Customer[]>' is not assignable to type 'unique symbol | QueryFunction<Customer[], string[], never> | undefined'.
+      Type '() => PromiseLike<Customer[]>' is not assignable to type 'QueryFunction<Customer[], string[], never>'.
+        Type 'PromiseLike<Customer[]>' is not assignable to type 'Customer[] | Promise<Customer[]>'.
+          Type 'PromiseLike<Customer[]>' is missing the following properties from type 'Promise<Customer[]>': catch, finally, [Symbol.toStringTag]
+src/pages/new-transactions.tsx(47,31): error TS2339: Property 'find' does not exist on type '{}'.
+src/pages/new-transactions.tsx(47,37): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/new-transactions.tsx(88,27): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/new-transactions.tsx(88,32): error TS7006: Parameter 'c' implicitly has an 'any' type.
+src/pages/new-transactions.tsx(103,34): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/new-transactions.tsx(103,39): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/new-transactions.tsx(162,30): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<Product[]>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<Product[]>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<Product[], Error, Product[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<Product[]>' is not assignable to type 'unique symbol | QueryFunction<Product[], string[], never> | undefined'.
+      Type '() => PromiseLike<Product[]>' is not assignable to type 'QueryFunction<Product[], string[], never>'.
+        Type 'PromiseLike<Product[]>' is not assignable to type 'Product[] | Promise<Product[]>'.
+          Type 'PromiseLike<Product[]>' is missing the following properties from type 'Promise<Product[]>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<Product[], Error, Product[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<Product[], Error>', gave the following error.
+    Type '() => PromiseLike<Product[]>' is not assignable to type 'unique symbol | QueryFunction<Product[], string[], never> | undefined'.
+      Type '() => PromiseLike<Product[]>' is not assignable to type 'QueryFunction<Product[], string[], never>'.
+        Type 'PromiseLike<Product[]>' is not assignable to type 'Product[] | Promise<Product[]>'.
+          Type 'PromiseLike<Product[]>' is missing the following properties from type 'Promise<Product[]>': catch, finally, [Symbol.toStringTag]
+src/pages/new-transactions.tsx(166,31): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<Supplier[]>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<Supplier[]>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<Supplier[], Error, Supplier[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<Supplier[]>' is not assignable to type 'unique symbol | QueryFunction<Supplier[], string[], never> | undefined'.
+      Type '() => PromiseLike<Supplier[]>' is not assignable to type 'QueryFunction<Supplier[], string[], never>'.
+        Type 'PromiseLike<Supplier[]>' is not assignable to type 'Supplier[] | Promise<Supplier[]>'.
+          Type 'PromiseLike<Supplier[]>' is missing the following properties from type 'Promise<Supplier[]>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<Supplier[], Error, Supplier[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<Supplier[], Error>', gave the following error.
+    Type '() => PromiseLike<Supplier[]>' is not assignable to type 'unique symbol | QueryFunction<Supplier[], string[], never> | undefined'.
+      Type '() => PromiseLike<Supplier[]>' is not assignable to type 'QueryFunction<Supplier[], string[], never>'.
+        Type 'PromiseLike<Supplier[]>' is not assignable to type 'Supplier[] | Promise<Supplier[]>'.
+          Type 'PromiseLike<Supplier[]>' is missing the following properties from type 'Promise<Supplier[]>': catch, finally, [Symbol.toStringTag]
+src/pages/new-transactions.tsx(178,31): error TS2339: Property 'find' does not exist on type '{}'.
+src/pages/new-transactions.tsx(178,37): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/new-transactions.tsx(211,27): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/new-transactions.tsx(211,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/pages/new-transactions.tsx(225,34): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/new-transactions.tsx(225,39): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/new-transactions.tsx(270,31): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, string[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: string[]; queryFn: () => PromiseLike<Supplier[]>; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, string[]>'.
+      Property 'initialData' is missing in type '{ queryKey: string[]; queryFn: () => PromiseLike<Supplier[]>; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, string[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<Supplier[], Error, Supplier[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<Supplier[]>' is not assignable to type 'unique symbol | QueryFunction<Supplier[], string[], never> | undefined'.
+      Type '() => PromiseLike<Supplier[]>' is not assignable to type 'QueryFunction<Supplier[], string[], never>'.
+        Type 'PromiseLike<Supplier[]>' is not assignable to type 'Supplier[] | Promise<Supplier[]>'.
+          Type 'PromiseLike<Supplier[]>' is missing the following properties from type 'Promise<Supplier[]>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<Supplier[], Error, Supplier[], string[]>, queryClient?: QueryClient | undefined): UseQueryResult<Supplier[], Error>', gave the following error.
+    Type '() => PromiseLike<Supplier[]>' is not assignable to type 'unique symbol | QueryFunction<Supplier[], string[], never> | undefined'.
+      Type '() => PromiseLike<Supplier[]>' is not assignable to type 'QueryFunction<Supplier[], string[], never>'.
+        Type 'PromiseLike<Supplier[]>' is not assignable to type 'Supplier[] | Promise<Supplier[]>'.
+          Type 'PromiseLike<Supplier[]>' is missing the following properties from type 'Promise<Supplier[]>': catch, finally, [Symbol.toStringTag]
+src/pages/new-transactions.tsx(311,25): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/new-transactions.tsx(311,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/pages/product-detail.tsx(221,137): error TS2322: Type 'string' is not assignable to type 'number'.
+src/pages/product-detail.tsx(222,143): error TS2322: Type 'string' is not assignable to type 'number'.
+src/pages/product-detail.tsx(223,155): error TS2322: Type 'string' is not assignable to type 'number'.
+src/pages/solana-payment.tsx(29,37): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(options: DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>, queryClient?: QueryClient | undefined): DefinedUseQueryResult<unknown, Error>', gave the following error.
+    Argument of type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' is not assignable to parameter of type 'DefinedInitialDataOptions<unknown, Error, unknown, (string | undefined)[]>'.
+      Property 'initialData' is missing in type '{ queryKey: (string | undefined)[]; queryFn: () => PromiseLike<any[] | null>; enabled: boolean; }' but required in type '{ initialData: unknown; queryFn?: QueryFunction<unknown, (string | undefined)[]> | undefined; }'.
+  Overload 2 of 3, '(options: UndefinedInitialDataOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<...>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+  Overload 3 of 3, '(options: UseQueryOptions<any[] | null, Error, any[] | null, (string | undefined)[]>, queryClient?: QueryClient | undefined): UseQueryResult<any[] | null, Error>', gave the following error.
+    Type '() => PromiseLike<any[] | null>' is not assignable to type 'unique symbol | QueryFunction<any[] | null, (string | undefined)[], never> | undefined'.
+      Type '() => PromiseLike<any[] | null>' is not assignable to type 'QueryFunction<any[] | null, (string | undefined)[], never>'.
+        Type 'PromiseLike<any[] | null>' is not assignable to type 'any[] | Promise<any[] | null> | null'.
+          Type 'PromiseLike<any[] | null>' is missing the following properties from type 'Promise<any[] | null>': catch, finally, [Symbol.toStringTag]
+src/pages/solana-payment.tsx(155,9): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+src/pages/solana-payment.tsx(178,45): error TS2339: Property 'length' does not exist on type '{}'.
+src/pages/solana-payment.tsx(182,32): error TS2339: Property 'map' does not exist on type '{}'.
+src/pages/solana-payment.tsx(182,37): error TS7006: Parameter 'r' implicitly has an 'any' type.
