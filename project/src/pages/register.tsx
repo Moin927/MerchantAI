@@ -23,14 +23,50 @@ export function RegisterPage() {
     setLoading(true);
     try {
       // Step 1: Create auth account
+      let userId: string | null = null;
       const { data: authData, error: authError } = await supabase.auth.signUp({
         email,
         password,
       });
-      if (authError) throw authError;
-      if (!authData.user) throw new Error('Registration failed');
 
-      const userId = authData.user.id;
+      if (authError) {
+        const msg = authError.message.toLowerCase();
+        // If user already exists or email rate limit was triggered,
+        // attempt to sign in with password to recover the session without sending an email
+        if (msg.includes('already registered') || msg.includes('rate limit')) {
+          const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
+            email,
+            password,
+          });
+          if (!signInError && signInData?.user) {
+            userId = signInData.user.id;
+          } else {
+            if (msg.includes('rate limit')) {
+              throw new Error('Email rate limit exceeded. Please disable "Confirm email" in your Supabase Dashboard (Authentication > Providers > Email) or log in if your account is already created.');
+            }
+            throw authError;
+          }
+        } else {
+          throw authError;
+        }
+      } else if (authData?.user) {
+        userId = authData.user.id;
+      }
+
+      if (!userId) throw new Error('Registration failed');
+
+      // Check if user already has a business/profile (recovery flow)
+      const { data: existingProfile } = await supabase
+        .from('profiles')
+        .select('business_id')
+        .eq('user_id', userId)
+        .maybeSingle();
+
+      if (existingProfile) {
+        toast('Welcome back! Logged in successfully.', 'success');
+        navigate('/app/dashboard');
+        return;
+      }
 
       // Step 2: Create business
       const { data: businessData, error: businessError } = await supabase
